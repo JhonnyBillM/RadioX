@@ -80,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				507FFE461E842B6A00D7E510 /* RadioX */,
+				507FFE791E84313000D7E510 /* SupportingFiles */,
 				507FFE5E1E842B6A00D7E510 /* RadioXTests */,
 				507FFE691E842B6A00D7E510 /* RadioXUITests */,
 				507FFE451E842B6A00D7E510 /* Products */,
@@ -99,13 +100,8 @@
 		507FFE461E842B6A00D7E510 /* RadioX */ = {
 			isa = PBXGroup;
 			children = (
-				507FFE471E842B6A00D7E510 /* AppDelegate.swift */,
 				507FFE491E842B6A00D7E510 /* ViewController.swift */,
 				507FFE4B1E842B6A00D7E510 /* Main.storyboard */,
-				507FFE511E842B6A00D7E510 /* Assets.xcassets */,
-				507FFE531E842B6A00D7E510 /* LaunchScreen.storyboard */,
-				507FFE561E842B6A00D7E510 /* Info.plist */,
-				507FFE4E1E842B6A00D7E510 /* RadioX.xcdatamodeld */,
 			);
 			path = RadioX;
 			sourceTree = "<group>";
@@ -126,6 +122,19 @@
 				507FFE6C1E842B6A00D7E510 /* Info.plist */,
 			);
 			path = RadioXUITests;
+			sourceTree = "<group>";
+		};
+		507FFE791E84313000D7E510 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				507FFE471E842B6A00D7E510 /* AppDelegate.swift */,
+				507FFE511E842B6A00D7E510 /* Assets.xcassets */,
+				507FFE531E842B6A00D7E510 /* LaunchScreen.storyboard */,
+				507FFE561E842B6A00D7E510 /* Info.plist */,
+				507FFE4E1E842B6A00D7E510 /* RadioX.xcdatamodeld */,
+			);
+			name = SupportingFiles;
+			path = RadioX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +518,7 @@
 				507FFE711E842B6A00D7E510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		507FFE721E842B6A00D7E510 /* Build configuration list for PBXNativeTarget "RadioXTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +527,7 @@
 				507FFE741E842B6A00D7E510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		507FFE751E842B6A00D7E510 /* Build configuration list for PBXNativeTarget "RadioXUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +536,7 @@
 				507FFE771E842B6A00D7E510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
