@@ -15,6 +15,7 @@
 		507FFE551E842B6A00D7E510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507FFE531E842B6A00D7E510 /* LaunchScreen.storyboard */; };
 		507FFE601E842B6A00D7E510 /* RadioXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE5F1E842B6A00D7E510 /* RadioXTests.swift */; };
 		507FFE6B1E842B6A00D7E510 /* RadioXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */; };
+		507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		507FFE661E842B6A00D7E510 /* RadioXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioXUITests.swift; sourceTree = "<group>"; };
 		507FFE6C1E842B6A00D7E510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				507FFE491E842B6A00D7E510 /* ViewController.swift */,
 				507FFE4B1E842B6A00D7E510 /* Main.storyboard */,
+				507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */,
 			);
 			path = RadioX;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				507FFE4A1E842B6A00D7E510 /* ViewController.swift in Sources */,
+				507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */,
 				507FFE481E842B6A00D7E510 /* AppDelegate.swift in Sources */,
 				507FFE501E842B6A00D7E510 /* RadioX.xcdatamodeld in Sources */,
 			);
