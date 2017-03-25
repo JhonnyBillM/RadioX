@@ -1,4 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavShow" representedClassName="FavShow" syncable="YES" codeGenerationType="class">
+        <attribute name="showID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Host" representedClassName="Host" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hostID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="instagram" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snapchat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitter" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="showHost" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ShowHost" syncable="YES"/>
+    </entity>
+    <entity name="Radio" representedClassName="Radio" syncable="YES" codeGenerationType="class">
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eMail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instagram" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="radioID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="snapchat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soacialNetworks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitter" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="shows" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Show" syncable="YES"/>
+    </entity>
+    <entity name="Schedule" representedClassName="Schedule" syncable="YES" codeGenerationType="class">
+        <attribute name="descrip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="scheduleID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="showID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Show" representedClassName="Show" syncable="YES" codeGenerationType="class">
+        <attribute name="descrip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="radioID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="showID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="favShow" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FavShow" syncable="YES"/>
+        <relationship name="schedule" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Schedule" syncable="YES"/>
+        <relationship name="showHost" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ShowHost" syncable="YES"/>
+    </entity>
+    <entity name="ShowHost" representedClassName="ShowHost" syncable="YES" codeGenerationType="class">
+        <attribute name="hostID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="showID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="eMail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="favShow" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FavShow" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Radio" positionX="-756" positionY="-327" width="128" height="208"/>
+        <element name="Show" positionX="-398" positionY="-340" width="128" height="178"/>
+        <element name="Host" positionX="-99" positionY="41" width="128" height="193"/>
+        <element name="User" positionX="-731" positionY="143" width="128" height="118"/>
+        <element name="Schedule" positionX="79" positionY="-270" width="128" height="118"/>
+        <element name="ShowHost" positionX="-371" positionY="-39" width="128" height="75"/>
+        <element name="FavShow" positionX="-522" positionY="36" width="128" height="73"/>
+    </elements>
 </model>
