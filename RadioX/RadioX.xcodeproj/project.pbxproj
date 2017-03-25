@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504F62791E87058100155FD7 /* Schedule+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F626B1E87058100155FD7 /* Schedule+CoreDataClass.swift */; };
+		504F627A1E87058100155FD7 /* Schedule+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F626C1E87058100155FD7 /* Schedule+CoreDataProperties.swift */; };
+		504F627B1E87058100155FD7 /* ShowHost+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F626D1E87058100155FD7 /* ShowHost+CoreDataClass.swift */; };
+		504F627C1E87058100155FD7 /* ShowHost+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F626E1E87058100155FD7 /* ShowHost+CoreDataProperties.swift */; };
+		504F627D1E87058100155FD7 /* Host+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F626F1E87058100155FD7 /* Host+CoreDataClass.swift */; };
+		504F627E1E87058100155FD7 /* Host+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62701E87058100155FD7 /* Host+CoreDataProperties.swift */; };
+		504F627F1E87058100155FD7 /* Radio+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62711E87058100155FD7 /* Radio+CoreDataClass.swift */; };
+		504F62801E87058100155FD7 /* Radio+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62721E87058100155FD7 /* Radio+CoreDataProperties.swift */; };
+		504F62811E87058100155FD7 /* FavShow+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62731E87058100155FD7 /* FavShow+CoreDataClass.swift */; };
+		504F62821E87058100155FD7 /* FavShow+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62741E87058100155FD7 /* FavShow+CoreDataProperties.swift */; };
+		504F62831E87058100155FD7 /* Show+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62751E87058100155FD7 /* Show+CoreDataClass.swift */; };
+		504F62841E87058100155FD7 /* Show+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62761E87058100155FD7 /* Show+CoreDataProperties.swift */; };
+		504F62851E87058100155FD7 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62771E87058100155FD7 /* User+CoreDataClass.swift */; };
+		504F62861E87058100155FD7 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F62781E87058100155FD7 /* User+CoreDataProperties.swift */; };
 		507FFE481E842B6A00D7E510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE471E842B6A00D7E510 /* AppDelegate.swift */; };
 		507FFE4A1E842B6A00D7E510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE491E842B6A00D7E510 /* ViewController.swift */; };
 		507FFE4D1E842B6A00D7E510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507FFE4B1E842B6A00D7E510 /* Main.storyboard */; };
@@ -36,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504F626B1E87058100155FD7 /* Schedule+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Schedule+CoreDataClass.swift"; path = "../Schedule+CoreDataClass.swift"; sourceTree = "<group>"; };
+		504F626C1E87058100155FD7 /* Schedule+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Schedule+CoreDataProperties.swift"; path = "../Schedule+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		504F626D1E87058100155FD7 /* ShowHost+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ShowHost+CoreDataClass.swift"; path = "../ShowHost+CoreDataClass.swift"; sourceTree = "<group>"; };
+		504F626E1E87058100155FD7 /* ShowHost+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ShowHost+CoreDataProperties.swift"; path = "../ShowHost+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		504F626F1E87058100155FD7 /* Host+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Host+CoreDataClass.swift"; path = "../Host+CoreDataClass.swift"; sourceTree = "<group>"; };
+		504F62701E87058100155FD7 /* Host+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Host+CoreDataProperties.swift"; path = "../Host+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		504F62711E87058100155FD7 /* Radio+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Radio+CoreDataClass.swift"; path = "../Radio+CoreDataClass.swift"; sourceTree = "<group>"; };
+		504F62721E87058100155FD7 /* Radio+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Radio+CoreDataProperties.swift"; path = "../Radio+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		504F62731E87058100155FD7 /* FavShow+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FavShow+CoreDataClass.swift"; path = "../FavShow+CoreDataClass.swift"; sourceTree = "<group>"; };
+		504F62741E87058100155FD7 /* FavShow+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FavShow+CoreDataProperties.swift"; path = "../FavShow+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		504F62751E87058100155FD7 /* Show+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Show+CoreDataClass.swift"; path = "../Show+CoreDataClass.swift"; sourceTree = "<group>"; };
+		504F62761E87058100155FD7 /* Show+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Show+CoreDataProperties.swift"; path = "../Show+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		504F62771E87058100155FD7 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "../User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		504F62781E87058100155FD7 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "../User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		507FFE441E842B6A00D7E510 /* RadioX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507FFE471E842B6A00D7E510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		507FFE491E842B6A00D7E510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +106,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504F62871E87059300155FD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				504F626B1E87058100155FD7 /* Schedule+CoreDataClass.swift */,
+				504F626C1E87058100155FD7 /* Schedule+CoreDataProperties.swift */,
+				504F626D1E87058100155FD7 /* ShowHost+CoreDataClass.swift */,
+				504F626E1E87058100155FD7 /* ShowHost+CoreDataProperties.swift */,
+				504F626F1E87058100155FD7 /* Host+CoreDataClass.swift */,
+				504F62701E87058100155FD7 /* Host+CoreDataProperties.swift */,
+				504F62711E87058100155FD7 /* Radio+CoreDataClass.swift */,
+				504F62721E87058100155FD7 /* Radio+CoreDataProperties.swift */,
+				504F62731E87058100155FD7 /* FavShow+CoreDataClass.swift */,
+				504F62741E87058100155FD7 /* FavShow+CoreDataProperties.swift */,
+				504F62751E87058100155FD7 /* Show+CoreDataClass.swift */,
+				504F62761E87058100155FD7 /* Show+CoreDataProperties.swift */,
+				504F62771E87058100155FD7 /* User+CoreDataClass.swift */,
+				504F62781E87058100155FD7 /* User+CoreDataProperties.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		507FFE3B1E842B6900D7E510 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +151,7 @@
 		507FFE461E842B6A00D7E510 /* RadioX */ = {
 			isa = PBXGroup;
 			children = (
+				504F62871E87059300155FD7 /* Models */,
 				507FFE491E842B6A00D7E510 /* ViewController.swift */,
 				507FFE4B1E842B6A00D7E510 /* Main.storyboard */,
 				507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */,
@@ -274,10 +324,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504F627D1E87058100155FD7 /* Host+CoreDataClass.swift in Sources */,
+				504F627A1E87058100155FD7 /* Schedule+CoreDataProperties.swift in Sources */,
+				504F62811E87058100155FD7 /* FavShow+CoreDataClass.swift in Sources */,
+				504F62831E87058100155FD7 /* Show+CoreDataClass.swift in Sources */,
+				504F62841E87058100155FD7 /* Show+CoreDataProperties.swift in Sources */,
 				507FFE4A1E842B6A00D7E510 /* ViewController.swift in Sources */,
+				504F62801E87058100155FD7 /* Radio+CoreDataProperties.swift in Sources */,
+				504F627C1E87058100155FD7 /* ShowHost+CoreDataProperties.swift in Sources */,
+				504F62861E87058100155FD7 /* User+CoreDataProperties.swift in Sources */,
+				504F62851E87058100155FD7 /* User+CoreDataClass.swift in Sources */,
+				504F62821E87058100155FD7 /* FavShow+CoreDataProperties.swift in Sources */,
 				507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */,
+				504F627B1E87058100155FD7 /* ShowHost+CoreDataClass.swift in Sources */,
 				507FFE481E842B6A00D7E510 /* AppDelegate.swift in Sources */,
+				504F627E1E87058100155FD7 /* Host+CoreDataProperties.swift in Sources */,
+				504F627F1E87058100155FD7 /* Radio+CoreDataClass.swift in Sources */,
 				507FFE501E842B6A00D7E510 /* RadioX.xcdatamodeld in Sources */,
+				504F62791E87058100155FD7 /* Schedule+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
