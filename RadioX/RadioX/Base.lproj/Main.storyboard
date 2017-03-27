@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="562" y="-446"/>
         </scene>
-        <!--View Controller-->
+        <!--Catalogue View Controller-->
         <scene sceneID="0kM-Tr-D0j">
             <objects>
-                <viewController id="D2a-Mk-0uh" sceneMemberID="viewController">
+                <viewController id="D2a-Mk-0uh" customClass="CatalogueViewController" customModule="RadioX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dZB-eH-1kv"/>
                         <viewControllerLayoutGuide type="bottom" id="bbC-iX-61P"/>
@@ -58,13 +58,62 @@
                     <view key="view" contentMode="scaleToFill" id="MhJ-TV-6nH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JWJ-BM-1nW">
+                                <rect key="frame" x="8" y="72" width="359" height="538"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="538" id="JXr-yZ-AXT"/>
+                                    <constraint firstAttribute="width" constant="359" id="Yta-ta-Wzg"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="k8B-Ny-phg">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" reuseIdentifier="cell" id="Ebd-h1-TpG" customClass="CatalogueCollectionViewCell" customModule="RadioX">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Avy-Zj-v6B">
+                                                    <rect key="frame" x="4" y="15" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="Avy-Zj-v6B" firstAttribute="centerY" secondItem="Ebd-h1-TpG" secondAttribute="centerY" id="bf0-bT-Pf4"/>
+                                            <constraint firstItem="Avy-Zj-v6B" firstAttribute="centerX" secondItem="Ebd-h1-TpG" secondAttribute="centerX" id="mbY-v0-8rO"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="label" destination="Avy-Zj-v6B" id="9Us-1m-m82"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="D2a-Mk-0uh" id="C0w-e0-34x"/>
+                                    <outlet property="delegate" destination="D2a-Mk-0uh" id="7Fe-zg-AkH"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JWJ-BM-1nW" firstAttribute="centerX" secondItem="MhJ-TV-6nH" secondAttribute="centerX" id="6gd-fV-nma"/>
+                            <constraint firstItem="JWJ-BM-1nW" firstAttribute="top" secondItem="dZB-eH-1kv" secondAttribute="bottom" constant="8" symbolic="YES" id="rof-PW-3ZT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="y8z-hR-dck"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gce-nw-6f9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1423" y="-447"/>
+            <point key="canvasLocation" x="1421.5999999999999" y="-447.52623688155927"/>
         </scene>
         <!--Item-->
         <scene sceneID="eFM-ca-1iN">

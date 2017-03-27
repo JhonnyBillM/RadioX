@@ -17,6 +17,8 @@
 		507FFE6B1E842B6A00D7E510 /* RadioXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */; };
 		507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */; };
 		B29BC66D1E872101004F0E77 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29BC66C1E872101004F0E77 /* ContactViewController.swift */; };
+		B2E831251E897FF200128B36 /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */; };
+		B2E831271E89813F00128B36 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831261E89813F00128B36 /* CatalogueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		507FFE6C1E842B6A00D7E510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamingViewController.swift; sourceTree = "<group>"; };
 		B29BC66C1E872101004F0E77 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
+		B2E831261E89813F00128B36 /* CatalogueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				507FFE491E842B6A00D7E510 /* ViewController.swift */,
 				507FFE4B1E842B6A00D7E510 /* Main.storyboard */,
 				507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */,
+				B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */,
+				B2E831261E89813F00128B36 /* CatalogueViewController.swift */,
 				B29BC66C1E872101004F0E77 /* ContactViewController.swift */,
 			);
 			path = RadioX;
@@ -281,6 +287,8 @@
 				507FFE4A1E842B6A00D7E510 /* ViewController.swift in Sources */,
 				507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */,
 				507FFE481E842B6A00D7E510 /* AppDelegate.swift in Sources */,
+				B2E831251E897FF200128B36 /* CatalogueCollectionViewCell.swift in Sources */,
+				B2E831271E89813F00128B36 /* CatalogueViewController.swift in Sources */,
 				507FFE501E842B6A00D7E510 /* RadioX.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
