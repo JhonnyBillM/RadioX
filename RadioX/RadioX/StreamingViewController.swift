@@ -10,12 +10,46 @@ import UIKit
 
 class StreamingViewController: UIViewController {
 
+    
+    @IBOutlet weak var playButton: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    @IBAction func playButton(_ sender: UIButton) {
+        
+        toggle()
+        
+    }
+    
+    func toggle(){
+        
+        if Streaming.sharedInstance.currentlyPlaying() {
+            pauseStreaming()
+        }else{
+            startStreaming()
+        }
+        
+    }
+    
+    func startStreaming(){
+        Streaming.sharedInstance.play()
+        //Update the button icon
+    }
+    
+    func pauseStreaming(){
+        Streaming.sharedInstance.pause()
+        //Update the button icon
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
