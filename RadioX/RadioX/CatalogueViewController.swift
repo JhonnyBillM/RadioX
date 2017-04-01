@@ -28,7 +28,8 @@ class CatalogueViewController: UIViewController, UICollectionViewDataSource, UIC
         
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
         cell.label.text = self.items[indexPath.item]
-        cell.backgroundColor = UIColor.cyan // make cell more visible in our example project
+        cell.backgroundColor = UIColor.lightGray // make cell more visible in our example project
+        cell.layer.cornerRadius = 6
         
         return cell
     }
