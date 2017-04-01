@@ -21,8 +21,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="fzt-H3-Jhz" kind="relationship" relationship="viewControllers" id="hqc-cE-Rdy"/>
-                        <segue destination="vE5-BH-TRL" kind="relationship" relationship="viewControllers" id="X49-sb-8NT"/>
                         <segue destination="qaV-GY-yBD" kind="relationship" relationship="viewControllers" id="SR1-1g-bDq"/>
+                        <segue destination="vE5-BH-TRL" kind="relationship" relationship="viewControllers" id="X49-sb-8NT"/>
                         <segue destination="gua-KV-XIi" kind="relationship" relationship="viewControllers" id="YHr-Q4-4ze"/>
                     </connections>
                 </tabBarController>
@@ -30,11 +30,11 @@
             </objects>
             <point key="canvasLocation" x="-1178" y="188"/>
         </scene>
-        <!--Item-->
+        <!--Progamación-->
         <scene sceneID="Mm6-P4-pTJ">
             <objects>
                 <navigationController id="qaV-GY-yBD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ERa-3v-JVq"/>
+                    <tabBarItem key="tabBarItem" title="Progamación" image="Programacion" selectedImage="Programacion" id="ERa-3v-JVq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KvR-Hp-iUD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -116,7 +116,7 @@
             </objects>
             <point key="canvasLocation" x="1421.5999999999999" y="-447.52623688155927"/>
         </scene>
-        <!--Item-->
+        <!--configuracion-->
         <scene sceneID="eFM-ca-1iN">
             <objects>
                 <tableViewController id="gua-KV-XIi" sceneMemberID="viewController">
@@ -131,7 +131,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="86d-yl-Oyr" id="RHy-Db-Pej">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -139,7 +139,7 @@
                                         <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e4d-df-K6U" id="EDS-by-Vgt">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Permitir usar el calendario " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDi-7N-9MM">
@@ -160,7 +160,7 @@
                                         <rect key="frame" x="0.0" y="116" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9B9-BG-Kvz" id="Cty-bG-BLd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -172,7 +172,7 @@
                                         <rect key="frame" x="0.0" y="188" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PFT-wn-D2e" id="JVW-AK-Otf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -180,7 +180,7 @@
                                         <rect key="frame" x="0.0" y="232" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F2H-QA-R0G" id="UXe-7L-zhd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Permitir notificaciones de la app" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzn-c7-HoN">
@@ -201,7 +201,7 @@
                                         <rect key="frame" x="0.0" y="276" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wNR-cO-2Rn" id="Ag2-os-i3T">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -213,7 +213,7 @@
                                         <rect key="frame" x="0.0" y="348" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nwi-bs-E1p" id="eow-Kr-7vY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -221,7 +221,7 @@
                                         <rect key="frame" x="0.0" y="392" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fw0-AE-nEe" id="Uda-ee-JrN">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No se que poner xd " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxH-fg-d5i">
@@ -242,7 +242,7 @@
                                         <rect key="frame" x="0.0" y="436" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZUY-hK-wTM" id="9kN-K4-yhd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -254,13 +254,13 @@
                             <outlet property="delegate" destination="gua-KV-XIi" id="RN6-oY-MHU"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="IzU-4G-yui"/>
+                    <tabBarItem key="tabBarItem" title="configuracion" image="Configuracion" selectedImage="Configuracion" id="IzU-4G-yui"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N6a-7E-eoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-455.19999999999999" y="775.86206896551732"/>
         </scene>
-        <!--Item-->
+        <!--Contacto-->
         <scene sceneID="eDB-uJ-c5u">
             <objects>
                 <viewController id="vE5-BH-TRL" customClass="ContactViewController" customModule="RadioX" sceneMemberID="viewController">
@@ -300,7 +300,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="szK-t7-U9h"/>
+                    <tabBarItem key="tabBarItem" title="Contacto" image="Contacto" selectedImage="Contacto" id="szK-t7-U9h"/>
                     <connections>
                         <outlet property="containerB" destination="O6k-qS-zYL" id="Y6N-OO-vZw"/>
                         <outlet property="containerD" destination="Rif-RL-Eet" id="IMb-Zy-P31"/>
@@ -310,7 +310,7 @@
             </objects>
             <point key="canvasLocation" x="560.79999999999995" y="271.21439280359823"/>
         </scene>
-        <!--Item-->
+        <!--Streaming-->
         <scene sceneID="Udm-gZ-rsb">
             <objects>
                 <viewController id="fzt-H3-Jhz" customClass="StreamingViewController" customModule="RadioX" customModuleProvider="target" sceneMemberID="viewController">
@@ -374,7 +374,7 @@
                             <constraint firstItem="O29-Kl-1sA" firstAttribute="leading" secondItem="WEE-R8-C00" secondAttribute="leadingMargin" constant="123" id="xAN-Y1-ZYk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="7ha-Gn-0fg"/>
+                    <tabBarItem key="tabBarItem" title="Streaming" image="Streaming" selectedImage="Streaming" id="7ha-Gn-0fg"/>
                     <connections>
                         <outlet property="playButton" destination="BNV-6K-aFt" id="r5c-wY-fF2"/>
                     </connections>
@@ -627,4 +627,10 @@
             <point key="canvasLocation" x="2749.5999999999999" y="-448.42578710644682"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Configuracion" width="30" height="30"/>
+        <image name="Contacto" width="30" height="30"/>
+        <image name="Programacion" width="30" height="30"/>
+        <image name="Streaming" width="30" height="30"/>
+    </resources>
 </document>
