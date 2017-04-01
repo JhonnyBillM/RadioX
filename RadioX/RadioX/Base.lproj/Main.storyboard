@@ -80,20 +80,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="169" height="139"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Avy-Zj-v6B">
-                                                    <rect key="frame" x="63.5" y="59" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rn9-7N-do3">
+                                                    <rect key="frame" x="0.0" y="0.0" width="169" height="139"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstItem="Avy-Zj-v6B" firstAttribute="centerY" secondItem="Ebd-h1-TpG" secondAttribute="centerY" id="bf0-bT-Pf4"/>
-                                            <constraint firstItem="Avy-Zj-v6B" firstAttribute="centerX" secondItem="Ebd-h1-TpG" secondAttribute="centerX" id="mbY-v0-8rO"/>
-                                        </constraints>
                                         <connections>
-                                            <outlet property="label" destination="Avy-Zj-v6B" id="9Us-1m-m82"/>
+                                            <outlet property="image" destination="Rn9-7N-do3" id="Vej-pc-gKE"/>
                                             <segue destination="LEa-Ec-v6G" kind="show" id="msP-Pe-rCw"/>
                                         </connections>
                                     </collectionViewCell>
