@@ -43,6 +43,23 @@ class Radio: NSManagedObject {
         }
         
     }
+    
+    func fetchRadioData(){
+        
+        let fetchRequest =
+            NSFetchRequest<NSManagedObject>(entityName: "Radio")
+        
+        do {
+            
+//            radio = try managedContext.fetch(fetchRequest)
+            
+        } catch let error as NSError {
+            print("Could not fetch. \(error), \(error.userInfo)")
+        }
+        
+        
+    }
+    
    
     
     

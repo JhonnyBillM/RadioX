@@ -322,21 +322,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fPb-a5-Kuv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fPb-a5-Kuv">
                                 <rect key="frame" x="16" y="77" width="343" height="219"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="219" id="aZM-NX-D6x"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O29-Kl-1sA">
-                                <rect key="frame" x="139" y="304" width="97" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="utN-BN-VOl"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNV-6K-aFt">
                                 <rect key="frame" x="145" y="463" width="85" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
@@ -352,6 +343,15 @@
                                 <rect key="frame" x="67" y="384" width="240" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RADIO INTEC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O29-Kl-1sA">
+                                <rect key="frame" x="119" y="304" width="137" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="utN-BN-VOl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -362,8 +362,8 @@
                             <constraint firstItem="fPb-a5-Kuv" firstAttribute="trailing" secondItem="WEE-R8-C00" secondAttribute="trailingMargin" id="LvX-a5-jVx"/>
                             <constraint firstItem="fPb-a5-Kuv" firstAttribute="top" secondItem="kGn-QW-Gen" secondAttribute="bottom" constant="57" id="R6f-Bb-le6"/>
                             <constraint firstItem="DrF-tA-aim" firstAttribute="top" secondItem="S3N-0n-zFd" secondAttribute="bottom" constant="38" id="Vp9-PV-mNH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="O29-Kl-1sA" secondAttribute="trailing" constant="123" id="XDT-hp-KmB"/>
-                            <constraint firstItem="Hrs-lC-SgQ" firstAttribute="top" secondItem="O29-Kl-1sA" secondAttribute="bottom" constant="38" id="Xwh-TT-iFY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O29-Kl-1sA" secondAttribute="trailing" constant="103" id="XDT-hp-KmB"/>
+                            <constraint firstItem="Hrs-lC-SgQ" firstAttribute="top" secondItem="O29-Kl-1sA" secondAttribute="bottom" constant="33" id="Xwh-TT-iFY"/>
                             <constraint firstAttribute="bottom" secondItem="Hrs-lC-SgQ" secondAttribute="bottom" constant="223" id="a8C-oq-ziv"/>
                             <constraint firstItem="fPb-a5-Kuv" firstAttribute="leading" secondItem="WEE-R8-C00" secondAttribute="leadingMargin" id="cUZ-vB-SHb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="S3N-0n-zFd" secondAttribute="trailing" constant="92" id="etW-d0-YmY"/>
@@ -371,17 +371,18 @@
                             <constraint firstItem="O29-Kl-1sA" firstAttribute="top" secondItem="fPb-a5-Kuv" secondAttribute="bottom" constant="8" id="qxI-YP-aYn"/>
                             <constraint firstItem="Hrs-lC-SgQ" firstAttribute="leading" secondItem="WEE-R8-C00" secondAttribute="leadingMargin" constant="51" id="r2R-34-F0n"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BNV-6K-aFt" secondAttribute="trailing" constant="129" id="vcf-AF-yEF"/>
-                            <constraint firstItem="O29-Kl-1sA" firstAttribute="leading" secondItem="WEE-R8-C00" secondAttribute="leadingMargin" constant="123" id="xAN-Y1-ZYk"/>
+                            <constraint firstItem="O29-Kl-1sA" firstAttribute="leading" secondItem="WEE-R8-C00" secondAttribute="leadingMargin" constant="103" id="xAN-Y1-ZYk"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Streaming" image="Streaming" selectedImage="Streaming" id="7ha-Gn-0fg"/>
                     <connections>
+                        <outlet property="frontImage" destination="fPb-a5-Kuv" id="BkX-qg-SCK"/>
                         <outlet property="playButton" destination="BNV-6K-aFt" id="r5c-wY-fF2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ef-Yk-flS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="561" y="-1804"/>
+            <point key="canvasLocation" x="560.79999999999995" y="-1804.0479760119943"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qCk-Pc-L0P">
