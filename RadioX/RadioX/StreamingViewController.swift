@@ -22,19 +22,28 @@ class StreamingViewController: UIViewController {
 //        view.backgroundColor = UIColor.black
         // Do any additional setup after loading the view.
         frontImage.image = UIImage(named: "RadioIntecLogo")
+        
+        let image = UIImage(named: "Play")
+        playButton.setImage(image, for: .normal)
    
     }
 
     
    
     
-   
-    
-    
-    
     @IBAction func playButton(_ sender: UIButton) {
         
         toggle()
+        let image = UIImage(named: "Play")
+        let image2 = UIImage(named: "Pause")
+
+        if(sender.imageView?.image == UIImage(named:"Play")){
+            playButton.setImage(image2, for: .normal)
+        }
+        else {
+            playButton.setImage(image, for: .normal)
+        }
+        
         
     }
     
