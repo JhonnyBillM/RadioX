@@ -18,6 +18,10 @@
 		507FFE601E842B6A00D7E510 /* RadioXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE5F1E842B6A00D7E510 /* RadioXTests.swift */; };
 		507FFE6B1E842B6A00D7E510 /* RadioXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */; };
 		507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */; };
+		B26BB86C1E91AB430027A0BE /* SanFranciscoDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B26BB86B1E91A7E60027A0BE /* SanFranciscoDisplay-Black.otf */; };
+		B26BB86E1E91AF080027A0BE /* SanFranciscoDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B26BB86D1E91AEFC0027A0BE /* SanFranciscoDisplay-Medium.otf */; };
+		B26BB8701E91AF360027A0BE /* SanFranciscoDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B26BB86F1E91AF340027A0BE /* SanFranciscoDisplay-Thin.otf */; };
+		B26BB8721E91AF4E0027A0BE /* SanFranciscoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B26BB8711E91AF4B0027A0BE /* SanFranciscoText-Regular.otf */; };
 		B29BC66D1E872101004F0E77 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29BC66C1E872101004F0E77 /* ContactViewController.swift */; };
 		B2E831251E897FF200128B36 /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */; };
 		B2E831271E89813F00128B36 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831261E89813F00128B36 /* CatalogueViewController.swift */; };
@@ -66,6 +70,10 @@
 		507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioXUITests.swift; sourceTree = "<group>"; };
 		507FFE6C1E842B6A00D7E510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamingViewController.swift; sourceTree = "<group>"; };
+		B26BB86B1E91A7E60027A0BE /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Black.otf"; path = "../../../../Downloads/SanFranciscoFont-master/SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
+		B26BB86D1E91AEFC0027A0BE /* SanFranciscoDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Medium.otf"; path = "../../../../Downloads/SanFranciscoFont-master/SanFranciscoDisplay-Medium.otf"; sourceTree = "<group>"; };
+		B26BB86F1E91AF340027A0BE /* SanFranciscoDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Thin.otf"; path = "../../../../Downloads/SanFranciscoFont-master/SanFranciscoDisplay-Thin.otf"; sourceTree = "<group>"; };
+		B26BB8711E91AF4B0027A0BE /* SanFranciscoText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoText-Regular.otf"; path = "../../../../Downloads/SanFranciscoFont-master/SanFranciscoText-Regular.otf"; sourceTree = "<group>"; };
 		B29BC66C1E872101004F0E77 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
 		B2E831261E89813F00128B36 /* CatalogueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +180,10 @@
 		507FFE791E84313000D7E510 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				B26BB86D1E91AEFC0027A0BE /* SanFranciscoDisplay-Medium.otf */,
+				B26BB86B1E91A7E60027A0BE /* SanFranciscoDisplay-Black.otf */,
+				B26BB86F1E91AF340027A0BE /* SanFranciscoDisplay-Thin.otf */,
+				B26BB8711E91AF4B0027A0BE /* SanFranciscoText-Regular.otf */,
 				507FFE471E842B6A00D7E510 /* AppDelegate.swift */,
 				507FFE511E842B6A00D7E510 /* Assets.xcassets */,
 				507FFE531E842B6A00D7E510 /* LaunchScreen.storyboard */,
@@ -303,6 +315,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26BB86C1E91AB430027A0BE /* SanFranciscoDisplay-Black.otf in Resources */,
+				B26BB86E1E91AF080027A0BE /* SanFranciscoDisplay-Medium.otf in Resources */,
+				B26BB8701E91AF360027A0BE /* SanFranciscoDisplay-Thin.otf in Resources */,
+				B26BB8721E91AF4E0027A0BE /* SanFranciscoText-Regular.otf in Resources */,
 				507FFE551E842B6A00D7E510 /* LaunchScreen.storyboard in Resources */,
 				507FFE521E842B6A00D7E510 /* Assets.xcassets in Resources */,
 				507FFE4D1E842B6A00D7E510 /* Main.storyboard in Resources */,
