@@ -280,7 +280,7 @@
 				TargetAttributes = {
 					507FFE431E842B6900D7E510 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = ZX5XTRMYJH;
+						DevelopmentTeam = 53K75NW4TH;
 						ProvisioningStyle = Automatic;
 					};
 					507FFE5A1E842B6A00D7E510 = {
@@ -518,7 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZX5XTRMYJH;
+				DEVELOPMENT_TEAM = 53K75NW4TH;
 				INFOPLIST_FILE = RadioX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dlj.RadioX;
@@ -531,7 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZX5XTRMYJH;
+				DEVELOPMENT_TEAM = 53K75NW4TH;
 				INFOPLIST_FILE = RadioX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dlj.RadioX;
