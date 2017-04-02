@@ -7,14 +7,16 @@
 //
 
 import UIKit
+import MediaPlayer
 
 class StreamingViewController: UIViewController {
 
     
     @IBOutlet weak var playButton: UIButton!
-    
-    
     @IBOutlet weak var frontImage: UIImageView!
+    var volumeController = AVAudioPlayer()
+    
+    @IBOutlet weak var volumeView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +27,14 @@ class StreamingViewController: UIViewController {
         
         let image = UIImage(named: "Play")
         playButton.setImage(image, for: .normal)
-   
+        
+        
+        volumeView.backgroundColor = UIColor.clear
+        
+        let myVolumeView = MPVolumeView(frame: volumeView.bounds)
+        
+        volumeView.addSubview(myVolumeView)
+        
     }
 
     
