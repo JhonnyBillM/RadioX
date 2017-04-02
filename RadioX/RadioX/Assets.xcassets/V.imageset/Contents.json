@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "volume-up-indicator-2.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Cont.png",
       "scale" : "2x"
     },
     {
