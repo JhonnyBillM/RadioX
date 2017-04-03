@@ -26,7 +26,7 @@ class Radio: NSManagedObject {
         let context = AppDelegate.viewContext
         let radio = NSEntityDescription.insertNewObject(forEntityName: "Radio", into: context)
         
-        radio.setValue("01", forKeyPath: "radioID")
+        radio.setValue(01, forKeyPath: "radioID")
         radio.setValue("Radio Intec", forKeyPath: "name")
         radio.setValue("Santo Domingo, Intec", forKeyPath: "direction")
         radio.setValue("radio@intec.edu.do", forKeyPath: "eMail")
