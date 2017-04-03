@@ -7,14 +7,45 @@
 //
 
 import UIKit
+import CoreData
+
 
 class CatalogueViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate  {
     
     let reuseIdentifier = "cell" // also enter this string as the cell identifier in the storyboard
     //var imageView = UIImage(named: "1_1")
-    var imageView: [UIImage] = [UIImage(named: "1_1")!, UIImage(named: "1_3")!, UIImage(named: "1_5")!]
+    var imageView: [UIImage] = []//[UIImage(named: "1_1")!, UIImage(named: "1_3")!, UIImage(named: "1_5")!]
     var items = ["1", "2", "3"]
     
+    
+    
+    
+    ///////////////////////////////////
+    //          Fetch Data           //
+    ///////////////////////////////////
+    
+    func fetchRadioData(){
+        
+        let fetchRequest:NSFetchRequest<Show> = Show.fetchRequest()
+        
+        do{
+            
+            let searchResult = try AppDelegate.viewContext.fetch(fetchRequest)
+            
+            for show in searchResult {
+                
+                if let photoinData = show.value(forKey: "logo") as? UIImage{
+                    imageView.append(photoinData)
+                }
+            
+            }
+            
+        }catch{
+            
+        }
+        
+    }
+
     
     // MARK: - UICollectionViewDataSource protocol
     
