@@ -15,11 +15,28 @@ class StreamingViewController: UIViewController {
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var frontImage: UIImageView!
     var volumeController = AVAudioPlayer()
+    let show = Show()
+    let radio = Radio()
+    let schedule = Schedule()
     
     @IBOutlet weak var volumeView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
+        //Check if its first time openning app
+        //If it is, we will save all data to Core Data
+        
+        if(UserDefaults.standard.bool(forKey: "HasLaunchedOnce"))
+        {
+            radio.saveData()
+            show.saveData()
+            schedule.saveData()
+            
+        }
+        
+        
 
 //        view.backgroundColor = UIColor.black
         // Do any additional setup after loading the view.
@@ -34,6 +51,9 @@ class StreamingViewController: UIViewController {
         let myVolumeView = MPVolumeView(frame: volumeView.bounds)
         
         volumeView.addSubview(myVolumeView)
+        
+        show.fetchRadioData()
+        
         
     }
 

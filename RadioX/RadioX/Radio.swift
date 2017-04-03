@@ -32,7 +32,7 @@ class Radio: NSManagedObject {
         radio.setValue("radio@intec.edu.do", forKeyPath: "eMail")
         radio.setValue("Radio Intec", forKeyPath: "facebook")
         radio.setValue("Radio Intec", forKeyPath: "instagram")
-        radio.setValue("Radio Intec", forKeyPath: "phoneNumber")
+        radio.setValue(809-000-0000, forKeyPath: "phoneNumber")
         radio.setValue("Radio Intec", forKeyPath: "snapchat")
         radio.setValue("Radio Intec", forKeyPath: "twitter")
         
