@@ -10,48 +10,57 @@ import UIKit
 import CoreData
 
 
-class CatalogueViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate  {
+class CatalogueViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     let reuseIdentifier = "cell" // also enter this string as the cell identifier in the storyboard
     //var imageView = UIImage(named: "1_1")
-    var imageView: [UIImage] = [UIImage(named: "1_1")!, UIImage(named: "1_3")!, UIImage(named: "1_5")!]
-    var items = ["1", "2", "3"]
+    var imageView: [UIImage] = []//[UIImage(named: "1_1")!, UIImage(named: "1_3")!, UIImage(named: "1_5")!]
+    var items = [Int]()//["1", "2", "3"]
     
     
-    
-    
-    ///////////////////////////////////
-    //          Fetch Data           //
-    ///////////////////////////////////
-    
-    func fetchRadioData(){
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
-        let fetchRequest:NSFetchRequest<Show> = Show.fetchRequest()
-        
-        do{
-            
-            let searchResult = try AppDelegate.viewContext.fetch(fetchRequest)
-            
-            for show in searchResult {
-                
-                if let photoinData = show.value(forKey: "logo") as? UIImage{
-                    imageView.append(photoinData)
-                }
-            
-            }
-            
-        }catch{
-            
-        }
-        
+        // Do any additional setup after loading the view.
+//        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+//                let show = Show()
+//        
+//                 print("2222222222222222222222222222222222222222222")
+//                let shows = show.fetchShows()
+//                 print("33333333333333333333333333333333333333333333333")
+//                for show in shows {
+//                    print("44444444444444444444")
+//                    print("!!!!!!!!!!!!!!!!!")
+//                    print(show.name!)
+//                    print(show.logo!)
+//                    self.imageView.append(UIImage(named: show.logo!)!)
+//                }
+//        
+//        
     }
-
     
+    
+
     // MARK: - UICollectionViewDataSource protocol
     
     // tell the collection view how many cells to make
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.items.count
+        
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        let show = Show()
+        
+        print("2222222222222222222222222222222222222222222")
+        let shows = show.fetchShows()
+        print("33333333333333333333333333333333333333333333333")
+        for show in shows {
+            print("44444444444444444444")
+            print("!!!!!!!!!!!!!!!!!")
+            print(show.name!)
+            print(show.logo!)
+            self.imageView.append(UIImage(named: show.logo!)!)
+        }
+        
+        return self.imageView.count
     }
     
     // make a cell for each cell index path

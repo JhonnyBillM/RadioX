@@ -28,7 +28,7 @@ class StreamingViewController: UIViewController {
         //Check if its first time openning app
         //If it is, we will save all data to Core Data
         
-        if(UserDefaults.standard.bool(forKey: "HasLaunchedOnce"))
+        if !(UserDefaults.standard.bool(forKey: "HasLaunchedOnce"))
         {
             radio.saveData()
             show.saveData()
@@ -52,7 +52,7 @@ class StreamingViewController: UIViewController {
         
         volumeView.addSubview(myVolumeView)
         
-        show.fetchRadioData()
+    
         
         
     }
