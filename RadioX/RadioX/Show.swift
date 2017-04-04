@@ -196,6 +196,8 @@ class Show: NSManagedObject {
                 print("HEEEEEEEEEEEEEEEEEEY")
                 print(show.name)
                 print(show.descrip)
+                
+
             }
             
         }catch{

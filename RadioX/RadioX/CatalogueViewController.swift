@@ -14,7 +14,7 @@ class CatalogueViewController: UIViewController, UICollectionViewDataSource, UIC
     
     let reuseIdentifier = "cell" // also enter this string as the cell identifier in the storyboard
     //var imageView = UIImage(named: "1_1")
-    var imageView: [UIImage] = []//[UIImage(named: "1_1")!, UIImage(named: "1_3")!, UIImage(named: "1_5")!]
+    var imageView: [UIImage] = [UIImage(named: "1_1")!, UIImage(named: "1_3")!, UIImage(named: "1_5")!]
     var items = ["1", "2", "3"]
     
     
