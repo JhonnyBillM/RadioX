@@ -10,12 +10,12 @@ import UIKit
 
 class ContactViewController: UIViewController {
 
-    @IBOutlet weak var containerB: UIView!
+    @IBOutlet weak var scroller: UIScrollView!
     
- 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(scroller)
 
         // Do any additional setup after loading the view.
     }
@@ -24,7 +24,12 @@ class ContactViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func viewWillLayoutSubviews(){
+        super.viewWillLayoutSubviews()
+        scroller.contentSize = CGSize(width: 375, height: 800)
+    }
+    
     /*
     // MARK: - Navigation
 
