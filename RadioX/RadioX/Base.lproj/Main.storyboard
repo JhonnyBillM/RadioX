@@ -599,7 +599,7 @@
         <!--Radio Data View Controller-->
         <scene sceneID="TUS-IC-ZLy">
             <objects>
-                <viewController id="LEa-Ec-v6G" customClass="RadioDataViewController" customModule="RadioX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RadioDataViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LEa-Ec-v6G" customClass="RadioDataViewController" customModule="RadioX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g3F-c5-x8d"/>
                         <viewControllerLayoutGuide type="bottom" id="FBp-M4-mEw"/>

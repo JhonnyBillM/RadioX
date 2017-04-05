@@ -69,11 +69,19 @@ class CatalogueViewController: UIViewController, UICollectionViewDataSource, UIC
     // MARK: - UICollectionViewDelegate protocol
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
         // handle tap events
         print("You selected cell #\(indexPath.item)!")
         
         let show = shows[indexPath.item]
+        print("!!!!!!! UM TESTING !!!!!!!")
+        print(show.name!)
+        print(show.descrip!)
         //Pasar ese objeto show al RadioDataViewController
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "RadioDataViewController") as! RadioDataViewController
+        
+        nextViewController.tapped(show: show)
         
     }
 
