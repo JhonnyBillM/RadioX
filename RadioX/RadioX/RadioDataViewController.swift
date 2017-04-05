@@ -11,10 +11,16 @@ import UIKit
 
 class RadioDataViewController: UIViewController {
 
+    var showToDetail = Show()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        print("!!!!!!!!!!!! HEY !!!!!!!!!!")
+        print(showToDetail.name!)
+        
         
     }
     
@@ -25,6 +31,10 @@ class RadioDataViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func tapped(show: Show){
+        showToDetail = show
+    }
 
     /*
     // MARK: - Navigation
