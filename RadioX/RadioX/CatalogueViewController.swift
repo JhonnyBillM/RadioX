@@ -15,28 +15,14 @@ class CatalogueViewController: UIViewController, UICollectionViewDataSource, UIC
     let reuseIdentifier = "cell" // also enter this string as the cell identifier in the storyboard
     //var imageView = UIImage(named: "1_1")
     var imageView: [UIImage] = []//[UIImage(named: "1_1")!, UIImage(named: "1_3")!, UIImage(named: "1_5")!]
+    var shows = [Show]()
     var items = [Int]()//["1", "2", "3"]
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
-//        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-//                let show = Show()
-//        
-//                 print("2222222222222222222222222222222222222222222")
-//                let shows = show.fetchShows()
-//                 print("33333333333333333333333333333333333333333333333")
-//                for show in shows {
-//                    print("44444444444444444444")
-//                    print("!!!!!!!!!!!!!!!!!")
-//                    print(show.name!)
-//                    print(show.logo!)
-//                    self.imageView.append(UIImage(named: show.logo!)!)
-//                }
-//        
-//        
     }
     
     
@@ -50,7 +36,7 @@ class CatalogueViewController: UIViewController, UICollectionViewDataSource, UIC
         let show = Show()
         
         print("2222222222222222222222222222222222222222222")
-        let shows = show.fetchShows()
+        shows = show.fetchShows()
         print("33333333333333333333333333333333333333333333333")
         for show in shows {
             print("44444444444444444444")
@@ -85,6 +71,10 @@ class CatalogueViewController: UIViewController, UICollectionViewDataSource, UIC
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         // handle tap events
         print("You selected cell #\(indexPath.item)!")
+        
+        let show = shows[indexPath.item]
+        //Pasar ese objeto show al RadioDataViewController
+        
     }
 
 }
