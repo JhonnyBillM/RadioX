@@ -12,7 +12,7 @@ class ContactViewController: UIViewController {
 
     @IBOutlet weak var containerB: UIView!
     
-    @IBOutlet weak var containerD: UIView!
+ 
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,20 +23,6 @@ class ContactViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func showContainer(_ sender: UISegmentedControl) {
-        if sender.selectedSegmentIndex == 0 {
-            UIView.animate(withDuration: 0.1, animations: {
-                self.containerD.alpha = 1
-                self.containerB.alpha = 0
-            })
-        } else {
-            UIView.animate(withDuration: 0.1, animations: {
-                self.containerD.alpha = 0
-                self.containerB.alpha = 1
-            })
-        }
     }
 
     /*
