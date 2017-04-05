@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="g0o-4P-aI9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="g0o-4P-aI9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -58,7 +58,7 @@
         <!--Catalogue View Controller-->
         <scene sceneID="0kM-Tr-D0j">
             <objects>
-                <viewController id="D2a-Mk-0uh" customClass="CatalogueViewController" customModule="RadioX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CatalogueViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="D2a-Mk-0uh" customClass="CatalogueViewController" customModule="RadioX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dZB-eH-1kv"/>
                         <viewControllerLayoutGuide type="bottom" id="bbC-iX-61P"/>
@@ -383,7 +383,7 @@
             <objects>
                 <navigationController id="ATk-Hj-scd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="wgJ-hg-0RD"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Da7-aQ-vCZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Da7-aQ-vCZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -791,10 +791,16 @@
                             <constraint firstItem="SDi-eu-oYM" firstAttribute="top" secondItem="sam-Dc-jVD" secondAttribute="top" id="nug-2c-WaU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="9CT-4y-LIJ" id="suw-9w-t1f"/>
+                        <outlet property="headerImage" destination="kxi-pn-eKX" id="eyz-Sy-fHV"/>
+                        <outlet property="scheduleLabel" destination="0Zl-Sl-Hvw" id="h2W-i6-B5U"/>
+                        <outlet property="showNameLabel" destination="51W-My-hAa" id="AZl-4Y-DoR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPh-c3-Vfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4069.5999999999999" y="-911.69415292353835"/>
+            <point key="canvasLocation" x="3319" y="-911"/>
         </scene>
     </scenes>
     <resources>

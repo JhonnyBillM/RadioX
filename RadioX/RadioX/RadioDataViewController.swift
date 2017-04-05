@@ -13,6 +13,16 @@ class RadioDataViewController: UIViewController {
 
     var showToDetail = Show()
     
+    @IBOutlet weak var headerImage: UIImageView!
+    
+    @IBOutlet weak var showNameLabel: UILabel!
+    
+    @IBOutlet weak var scheduleLabel: UILabel!
+    
+    @IBOutlet weak var descriptionTextView: UITextView!
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +30,12 @@ class RadioDataViewController: UIViewController {
         
         print("!!!!!!!!!!!! HEY !!!!!!!!!!")
         print(showToDetail.name!)
+        
+        headerImage.image = UIImage(named: showToDetail.logo!)
+        showNameLabel.text = showToDetail.name!
+        descriptionTextView.text = showToDetail.descrip!
+        
+        
         
         
     }

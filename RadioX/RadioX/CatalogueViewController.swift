@@ -83,6 +83,9 @@ class CatalogueViewController: UIViewController, UICollectionViewDataSource, UIC
         
         nextViewController.tapped(show: show)
         
+        self.navigationController?.pushViewController(nextViewController, animated: true)
+        
+        
     }
 
 }

@@ -32,7 +32,7 @@ class Show: NSManagedObject {
         //Saving image
 //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
 //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show.setValue("1_1", forKeyPath: "logo")
+        show.setValue("fueraDeClase", forKeyPath: "logo")
         
         
         ///////////////////////////////////
@@ -50,8 +50,8 @@ class Show: NSManagedObject {
         //Saving image
         //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
         //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show1.setValue("1_1", forKeyPath: "logo")
-        
+        show1.setValue("gamtec", forKeyPath: "logo")
+
         ///////////////////////////////////
         //         IGLU PERMANENTE       //
         ///////////////////////////////////
@@ -67,9 +67,9 @@ class Show: NSManagedObject {
         //Saving image
         //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
         //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show2.setValue("1_1", forKeyPath: "logo")
+        show2.setValue("elIgluPermantente", forKeyPath: "logo")
 
-        
+
         ///////////////////////////////////
         //       VOCES QUE EMPRENDEN     //
         ///////////////////////////////////
@@ -85,7 +85,7 @@ class Show: NSManagedObject {
         //Saving image
         //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
         //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show3.setValue("1_3", forKeyPath: "logo")
+        show3.setValue("vocesQueEmprenden", forKeyPath: "logo")
         
         
         ///////////////////////////////////
@@ -103,7 +103,7 @@ class Show: NSManagedObject {
         //Saving image
         //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
         //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show4.setValue("1_1", forKeyPath: "logo")
+        show4.setValue("integrate", forKeyPath: "logo")
         
         ///////////////////////////////////
         //LA CIENCIA DESDE LO PARTICULAR //
@@ -120,7 +120,7 @@ class Show: NSManagedObject {
         //Saving image
         //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
         //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show5.setValue("1_5", forKeyPath: "logo")
+        show5.setValue("laCienciaDesdeLoParticular", forKeyPath: "logo")
         
         ///////////////////////////////////
         //              MIRADAS          //
@@ -137,7 +137,7 @@ class Show: NSManagedObject {
         //Saving image
         //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
         //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show6.setValue("1_1", forKeyPath: "logo")
+        show6.setValue("miradas", forKeyPath: "logo")
         
         ///////////////////////////////////
         //     DESDE EL CUADRILATERO     //
@@ -154,7 +154,7 @@ class Show: NSManagedObject {
         //Saving image
         //        let img = UIImage(named: "1_1.png") //Use (e.g): fueraDeClase.png
         //        let imgData = UIImageJPEGRepresentation(img!, 1)
-        show7.setValue("1_1", forKeyPath: "logo")
+        show7.setValue("desdeElCuadrilatero", forKeyPath: "logo")
         
         
         
