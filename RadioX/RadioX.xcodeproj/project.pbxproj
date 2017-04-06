@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C5654BBBB3FFA385255400 /* Pods_RadioX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0F88DDC85576CF07017D7D /* Pods_RadioX.framework */; };
+		2C6E4F464DE15ECA63E6C2ED /* Pods_RadioXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DA1E361A7952873E4C0E52 /* Pods_RadioXTests.framework */; };
 		50143A501E8F161A00E3AB29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50143A4F1E8F161A00E3AB29 /* AVFoundation.framework */; };
 		50143A521E8F178A00E3AB29 /* Streaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50143A511E8F178A00E3AB29 /* Streaming.swift */; };
 		507FFE481E842B6A00D7E510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE471E842B6A00D7E510 /* AppDelegate.swift */; };
@@ -34,6 +36,7 @@
 		DD4F8AAE1E91FA480061F5EE /* SanFranciscoDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8AAA1E91FA480061F5EE /* SanFranciscoDisplay-Thin.otf */; };
 		DD4F8AAF1E91FA480061F5EE /* SanFranciscoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8AAB1E91FA480061F5EE /* SanFranciscoText-Regular.otf */; };
 		DD7EF8591E8FC3B4004BB64A /* RadioDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7EF8581E8FC3B4004BB64A /* RadioDataViewController.swift */; };
+		EE88E9E29E4C877763593FB9 /* Pods_RadioXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E87252E1CFB1FC848EBEFA /* Pods_RadioXUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +74,17 @@
 		507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioXUITests.swift; sourceTree = "<group>"; };
 		507FFE6C1E842B6A00D7E510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamingViewController.swift; sourceTree = "<group>"; };
+		6075B69E344A50AF43D7E81E /* Pods-RadioX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioX.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioX/Pods-RadioX.release.xcconfig"; sourceTree = "<group>"; };
+		6548495B1C0050271C99FA55 /* Pods-RadioXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioXUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioXUITests/Pods-RadioXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BF8DB97CB57052270397D68 /* Pods-RadioX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioX/Pods-RadioX.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC32D5B52BC4D51503ECD66 /* Pods-RadioXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioXTests/Pods-RadioXTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD0F88DDC85576CF07017D7D /* Pods_RadioX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29BC66C1E872101004F0E77 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
 		B2E831261E89813F00128B36 /* CatalogueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
+		BE4BEB13AD205B36E49EA7A9 /* Pods-RadioXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioXUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioXUITests/Pods-RadioXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4E87252E1CFB1FC848EBEFA /* Pods_RadioXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DA1E361A7952873E4C0E52 /* Pods_RadioXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD268D2F1E8F61D80038884E /* Radio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
 		DD268D311E8F621F0038884E /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		DD268D331E8F63150038884E /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
@@ -87,6 +98,7 @@
 		DD4F8AAA1E91FA480061F5EE /* SanFranciscoDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Thin.otf"; sourceTree = "<group>"; };
 		DD4F8AAB1E91FA480061F5EE /* SanFranciscoText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Regular.otf"; sourceTree = "<group>"; };
 		DD7EF8581E8FC3B4004BB64A /* RadioDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioDataViewController.swift; sourceTree = "<group>"; };
+		ED79CD4589B18B2D242017BE /* Pods-RadioXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioXTests/Pods-RadioXTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 			files = (
 				DD4016051E91A12B00213BC7 /* MediaPlayer.framework in Frameworks */,
 				50143A501E8F161A00E3AB29 /* AVFoundation.framework in Frameworks */,
+				01C5654BBBB3FFA385255400 /* Pods_RadioX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6E4F464DE15ECA63E6C2ED /* Pods_RadioXTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,17 +124,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE88E9E29E4C877763593FB9 /* Pods_RadioXUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1154FCD84CB573E2F2F7D375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BF8DB97CB57052270397D68 /* Pods-RadioX.debug.xcconfig */,
+				6075B69E344A50AF43D7E81E /* Pods-RadioX.release.xcconfig */,
+				ED79CD4589B18B2D242017BE /* Pods-RadioXTests.debug.xcconfig */,
+				9EC32D5B52BC4D51503ECD66 /* Pods-RadioXTests.release.xcconfig */,
+				6548495B1C0050271C99FA55 /* Pods-RadioXUITests.debug.xcconfig */,
+				BE4BEB13AD205B36E49EA7A9 /* Pods-RadioXUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		50143A4E1E8F161A00E3AB29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				DD4016041E91A12B00213BC7 /* MediaPlayer.framework */,
 				50143A4F1E8F161A00E3AB29 /* AVFoundation.framework */,
+				AD0F88DDC85576CF07017D7D /* Pods_RadioX.framework */,
+				D8DA1E361A7952873E4C0E52 /* Pods_RadioXTests.framework */,
+				D4E87252E1CFB1FC848EBEFA /* Pods_RadioXUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +165,7 @@
 				507FFE691E842B6A00D7E510 /* RadioXUITests */,
 				507FFE451E842B6A00D7E510 /* Products */,
 				50143A4E1E8F161A00E3AB29 /* Frameworks */,
+				1154FCD84CB573E2F2F7D375 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 507FFE6F1E842B6A00D7E510 /* Build configuration list for PBXNativeTarget "RadioX" */;
 			buildPhases = (
+				36556C9CF7F1A4DABAB46F4D /* [CP] Check Pods Manifest.lock */,
 				507FFE401E842B6900D7E510 /* Sources */,
 				507FFE411E842B6900D7E510 /* Frameworks */,
 				507FFE421E842B6900D7E510 /* Resources */,
+				3A5907178834E370A91D0723 /* [CP] Embed Pods Frameworks */,
+				B9175D74C28C0DDED497D3BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 507FFE721E842B6A00D7E510 /* Build configuration list for PBXNativeTarget "RadioXTests" */;
 			buildPhases = (
+				B619021E38467E5AA5D6DB40 /* [CP] Check Pods Manifest.lock */,
 				507FFE571E842B6A00D7E510 /* Sources */,
 				507FFE581E842B6A00D7E510 /* Frameworks */,
 				507FFE591E842B6A00D7E510 /* Resources */,
+				3B3758C59FACFF66E4D3B875 /* [CP] Embed Pods Frameworks */,
+				9D4F77F61B7575ED2D52FF8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 507FFE751E842B6A00D7E510 /* Build configuration list for PBXNativeTarget "RadioXUITests" */;
 			buildPhases = (
+				4F3C0B2E8D891E81B7FBEB55 /* [CP] Check Pods Manifest.lock */,
 				507FFE621E842B6A00D7E510 /* Sources */,
 				507FFE631E842B6A00D7E510 /* Frameworks */,
 				507FFE641E842B6A00D7E510 /* Resources */,
+				0C173674FF9564541F422A72 /* [CP] Embed Pods Frameworks */,
+				86F2729835A54C1B4576AC4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,6 +386,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C173674FF9564541F422A72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioXUITests/Pods-RadioXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36556C9CF7F1A4DABAB46F4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A5907178834E370A91D0723 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioX/Pods-RadioX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B3758C59FACFF66E4D3B875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioXTests/Pods-RadioXTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F3C0B2E8D891E81B7FBEB55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86F2729835A54C1B4576AC4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioXUITests/Pods-RadioXUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4F77F61B7575ED2D52FF8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioXTests/Pods-RadioXTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B619021E38467E5AA5D6DB40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9175D74C28C0DDED497D3BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioX/Pods-RadioX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		507FFE401E842B6900D7E510 /* Sources */ = {
@@ -516,10 +695,12 @@
 		};
 		507FFE701E842B6A00D7E510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF8DB97CB57052270397D68 /* Pods-RadioX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZX5XTRMYJH;
 				INFOPLIST_FILE = RadioX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dlj.RadioX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,10 +710,12 @@
 		};
 		507FFE711E842B6A00D7E510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6075B69E344A50AF43D7E81E /* Pods-RadioX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZX5XTRMYJH;
 				INFOPLIST_FILE = RadioX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dlj.RadioX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +725,7 @@
 		};
 		507FFE731E842B6A00D7E510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED79CD4589B18B2D242017BE /* Pods-RadioXTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +740,7 @@
 		};
 		507FFE741E842B6A00D7E510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC32D5B52BC4D51503ECD66 /* Pods-RadioXTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +755,7 @@
 		};
 		507FFE761E842B6A00D7E510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6548495B1C0050271C99FA55 /* Pods-RadioXUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RadioXUITests/Info.plist;
@@ -583,6 +769,7 @@
 		};
 		507FFE771E842B6A00D7E510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4BEB13AD205B36E49EA7A9 /* Pods-RadioXUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RadioXUITests/Info.plist;
