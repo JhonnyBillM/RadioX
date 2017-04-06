@@ -33,7 +33,7 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
 
     @IBOutlet weak var heartButton: FaveButton!
     
-    
+     let favInstance = FavShow()
     
     let colors = [
         DotColors(first: color(0x7DC2F4), second: color(0xE2264D)),
@@ -47,11 +47,14 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
         
         if(faveButton.isSelected){
             
-            //mandar a guardar en la base de datos que ese show es favorito
+            //mandar a guardar (en fav show con showid y userid) en la base de datos que ese show es favorito
             
+            favInstance.addToFavorite(show: Int(showToDetail.showID))
             
+        }else{
             
         }
+        
     }
     
     func faveButtonDotColors(_ faveButton: FaveButton) -> [DotColors]?{
@@ -76,6 +79,13 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
         
         //Chequear en la BD si ese show es favorito, si lo es pongo el heart rojo, si no, gris
         
+        
+        
+        if(favInstance.isFavorite(showID: Int(showToDetail.showID))){
+            heartButton.normalColor = UIColor.red
+        }else{
+            heartButton.normalColor = UIColor.gray
+        }
         
     }
     
