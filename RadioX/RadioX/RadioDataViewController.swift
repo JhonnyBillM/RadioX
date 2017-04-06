@@ -44,6 +44,14 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
     ]
     
     func faveButton(_ faveButton: FaveButton, didSelected selected: Bool){
+        
+        if(faveButton.isSelected){
+            
+            //mandar a guardar en la base de datos que ese show es favorito
+            
+            
+            
+        }
     }
     
     func faveButtonDotColors(_ faveButton: FaveButton) -> [DotColors]?{
@@ -66,8 +74,8 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
         showNameLabel.text = showToDetail.name!
         descriptionTextView.text = showToDetail.descrip!
         
-//        heartButton.setImage(UIImage(named:"heart")!, for: .normal)
-//        
+        //Chequear en la BD si ese show es favorito, si lo es pongo el heart rojo, si no, gris
+        
         
     }
     
