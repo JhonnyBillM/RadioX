@@ -31,6 +31,7 @@
 		DD268D3A1E8F635C0038884E /* ShowHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD268D391E8F635C0038884E /* ShowHost.swift */; };
 		DD268D3C1E8F636B0038884E /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD268D3B1E8F636B0038884E /* Host.swift */; };
 		DD4016051E91A12B00213BC7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4016041E91A12B00213BC7 /* MediaPlayer.framework */; };
+		DD476DE41E95E34A00C6E646 /* FaveButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD476DE31E95E34A00C6E646 /* FaveButton.framework */; };
 		DD4F8AAC1E91FA480061F5EE /* SanFranciscoDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8AA81E91FA480061F5EE /* SanFranciscoDisplay-Black.otf */; };
 		DD4F8AAD1E91FA480061F5EE /* SanFranciscoDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8AA91E91FA480061F5EE /* SanFranciscoDisplay-Medium.otf */; };
 		DD4F8AAE1E91FA480061F5EE /* SanFranciscoDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4F8AAA1E91FA480061F5EE /* SanFranciscoDisplay-Thin.otf */; };
@@ -93,6 +94,9 @@
 		DD268D391E8F635C0038884E /* ShowHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowHost.swift; sourceTree = "<group>"; };
 		DD268D3B1E8F636B0038884E /* Host.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
 		DD4016041E91A12B00213BC7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DD476DDF1E95D6BE00C6E646 /* FaveButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FaveButton.framework; path = "Pods/../build/Debug-iphoneos/FaveButton/FaveButton.framework"; sourceTree = "<group>"; };
+		DD476DE11E95D9C900C6E646 /* DOFavoriteButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DOFavoriteButton.framework; path = "Pods/../build/Debug-iphoneos/DOFavoriteButton/DOFavoriteButton.framework"; sourceTree = "<group>"; };
+		DD476DE31E95E34A00C6E646 /* FaveButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FaveButton.framework; path = "../../../Library/Developer/Xcode/DerivedData/RadioX-hlaauxdyquuoirblhqdezsxwlbox/Build/Products/Debug-iphonesimulator/FaveButton/FaveButton.framework"; sourceTree = "<group>"; };
 		DD4F8AA81E91FA480061F5EE /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
 		DD4F8AA91E91FA480061F5EE /* SanFranciscoDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Medium.otf"; sourceTree = "<group>"; };
 		DD4F8AAA1E91FA480061F5EE /* SanFranciscoDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Thin.otf"; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD476DE41E95E34A00C6E646 /* FaveButton.framework in Frameworks */,
 				DD4016051E91A12B00213BC7 /* MediaPlayer.framework in Frameworks */,
 				50143A501E8F161A00E3AB29 /* AVFoundation.framework in Frameworks */,
 				01C5654BBBB3FFA385255400 /* Pods_RadioX.framework in Frameworks */,
@@ -147,6 +152,9 @@
 		50143A4E1E8F161A00E3AB29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD476DE31E95E34A00C6E646 /* FaveButton.framework */,
+				DD476DE11E95D9C900C6E646 /* DOFavoriteButton.framework */,
+				DD476DDF1E95D6BE00C6E646 /* FaveButton.framework */,
 				DD4016041E91A12B00213BC7 /* MediaPlayer.framework */,
 				50143A4F1E8F161A00E3AB29 /* AVFoundation.framework */,
 				AD0F88DDC85576CF07017D7D /* Pods_RadioX.framework */,
@@ -316,7 +324,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = gestionadoresDiscretos;
 				TargetAttributes = {
 					507FFE431E842B6900D7E510 = {
@@ -618,6 +626,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -668,6 +677,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -697,8 +707,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BF8DB97CB57052270397D68 /* Pods-RadioX.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZX5XTRMYJH;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RadioX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -712,8 +724,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6075B69E344A50AF43D7E81E /* Pods-RadioX.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZX5XTRMYJH;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RadioX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

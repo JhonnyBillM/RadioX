@@ -17,6 +17,6 @@ target 'RadioX' do
     # Pods for testing
   end
 
-pod 'FaveButton', '~> 2.0.3’
+pod 'FaveButton', '~> 2.0.3'
 
 end
