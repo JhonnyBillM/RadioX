@@ -28,6 +28,7 @@ class FavShow: NSManagedObject {
         
         
         do{
+            print("GUARDEEEEEEEE")
             try context.save()
         }catch{
             //bueeeeno
@@ -65,6 +66,7 @@ class FavShow: NSManagedObject {
         
         for show in favShows{
             if(showID == show){
+                print("!!!!!!!!!!!!FOUND IT!!!!!")
                 return true
             }
         }
