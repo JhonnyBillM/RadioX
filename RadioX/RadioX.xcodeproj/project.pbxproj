@@ -23,6 +23,7 @@
 		B29BC66D1E872101004F0E77 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29BC66C1E872101004F0E77 /* ContactViewController.swift */; };
 		B2E831251E897FF200128B36 /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */; };
 		B2E831271E89813F00128B36 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831261E89813F00128B36 /* CatalogueViewController.swift */; };
+		DD12E6911E95FF9C00A0C899 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12E6901E95FF9C00A0C899 /* SettingsTableViewController.swift */; };
 		DD268D301E8F61D80038884E /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD268D2F1E8F61D80038884E /* Radio.swift */; };
 		DD268D321E8F621F0038884E /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD268D311E8F621F0038884E /* Show.swift */; };
 		DD268D341E8F63150038884E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD268D331E8F63150038884E /* Schedule.swift */; };
@@ -86,6 +87,7 @@
 		BE4BEB13AD205B36E49EA7A9 /* Pods-RadioXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioXUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioXUITests/Pods-RadioXUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D4E87252E1CFB1FC848EBEFA /* Pods_RadioXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DA1E361A7952873E4C0E52 /* Pods_RadioXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD12E6901E95FF9C00A0C899 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		DD268D2F1E8F61D80038884E /* Radio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
 		DD268D311E8F621F0038884E /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		DD268D331E8F63150038884E /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			children = (
 				507FFE491E842B6A00D7E510 /* ViewController.swift */,
 				507FFE4B1E842B6A00D7E510 /* Main.storyboard */,
+				DD12E6901E95FF9C00A0C899 /* SettingsTableViewController.swift */,
 				DD7EF8581E8FC3B4004BB64A /* RadioDataViewController.swift */,
 				50143A511E8F178A00E3AB29 /* Streaming.swift */,
 				507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */,
@@ -544,6 +547,7 @@
 				DD268D381E8F634D0038884E /* FavShow.swift in Sources */,
 				DD268D341E8F63150038884E /* Schedule.swift in Sources */,
 				507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */,
+				DD12E6911E95FF9C00A0C899 /* SettingsTableViewController.swift in Sources */,
 				507FFE481E842B6A00D7E510 /* AppDelegate.swift in Sources */,
 				DD268D3C1E8F636B0038884E /* Host.swift in Sources */,
 				50143A521E8F178A00E3AB29 /* Streaming.swift in Sources */,
