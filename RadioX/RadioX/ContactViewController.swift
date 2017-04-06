@@ -28,7 +28,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     override func viewWillLayoutSubviews(){
         super.viewWillLayoutSubviews()
-        scroller.contentSize = CGSize(width: 375, height: 800)
+        scroller.contentSize = CGSize(width: 430, height: 830)
     }
     
 
