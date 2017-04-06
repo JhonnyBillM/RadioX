@@ -19,6 +19,7 @@ func color(_ rgbColor: Int) -> UIColor{
 }
 
 class RadioDataViewController: UIViewController, FaveButtonDelegate{
+    @IBOutlet weak var scroll: UIScrollView!
 
     var showToDetail = Show()
     
@@ -33,8 +34,7 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
 
     @IBOutlet weak var heartButton: FaveButton!
     
-    
-    
+        
     let colors = [
         DotColors(first: color(0x7DC2F4), second: color(0xE2264D)),
         DotColors(first: color(0xF8CC61), second: color(0x9BDFBA)),
@@ -64,6 +64,7 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(scroll)
 
         // Do any additional setup after loading the view.
         
@@ -84,6 +85,11 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillLayoutSubviews(){
+        super.viewWillLayoutSubviews()
+        scroll.contentSize = CGSize(width: 375, height: 800)
     }
     
     
