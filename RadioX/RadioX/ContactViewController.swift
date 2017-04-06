@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class ContactViewController: UIViewController {
+class ContactViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     @IBOutlet weak var scroller: UIScrollView!
     
@@ -29,6 +30,32 @@ class ContactViewController: UIViewController {
         super.viewWillLayoutSubviews()
         scroller.contentSize = CGSize(width: 375, height: 800)
     }
+    
+
+    @IBAction func sendEmail(_ sender: Any) {
+        let mail = MFMailComposeViewController()
+        mail.mailComposeDelegate = self
+        mail.setToRecipients(["lareenmmelo@gmail.com"])
+        mail.setMessageBody("hiiiii", isHTML: false)
+        
+        if MFMailComposeViewController.canSendMail()
+        {
+            self.present(mail, animated: true, completion: nil)
+        }else{
+            print("cry")
+        }
+        
+    }
+   
+    
+    func mailComposeController(_ controller: MFMailComposeViewController,
+                               didFinishWith result: MFMailComposeResult, error: Error?) {
+        // Check the result or perform other tasks.
+        // Dismiss the mail compose view controller.
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+
     
     /*
     // MARK: - Navigation
