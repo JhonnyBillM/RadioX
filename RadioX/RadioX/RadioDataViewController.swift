@@ -35,6 +35,7 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
     @IBOutlet weak var heartButton: FaveButton!
     
      let favInstance = FavShow()
+    var selection = false
 
     let colors = [
         DotColors(first: color(0x7DC2F4), second: color(0xE2264D)),
@@ -45,16 +46,6 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
     ]
     
     func faveButton(_ faveButton: FaveButton, didSelected selected: Bool){
-        
-        if(faveButton.isSelected){
-            
-            //mandar a guardar (en fav show con showid y userid) en la base de datos que ese show es favorito
-            
-            favInstance.addToFavorite(show: Int(showToDetail.showID))
-            
-        }else{
-            
-        }
         
     }
     
@@ -84,14 +75,36 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
         
         
         if(favInstance.isFavorite(showID: Int(showToDetail.showID))){
+            print("ENCONTROOOOOOOOO")
             heartButton.normalColor = UIColor.red
+            heartButton.selectedColor = UIColor.red
+            heartButton.circleFromColor = UIColor.red
+            heartButton.circleFromColor = UIColor.red
+            heartButton.circleToColor = UIColor.red
+            heartButton.imageView?.image = UIImage(named: "redHeart")
+            heartButton.dotFirstColor = UIColor.darkGray
+            heartButton.dotSecondColor = UIColor.darkGray
         }else{
+            print("NADA DE NADA!!!!!!!!!!!")
             heartButton.normalColor = UIColor.gray
+            
         }
         
     }
     
     
+    @IBAction func heartButton(_ sender: Any) {
+        
+        if(!selection){
+            favInstance.addToFavorite(show: Int(showToDetail.showID))
+            selection = true
+        }else{
+            selection = false
+            heartButton.normalColor = UIColor.gray
+            print("OHHH YA HABIA GUARDADO ESTO")
+        }
+
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
