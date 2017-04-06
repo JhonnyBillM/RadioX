@@ -113,7 +113,7 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
     
     override func viewWillLayoutSubviews(){
         super.viewWillLayoutSubviews()
-        scroll.contentSize = CGSize(width: 430, height: 800)
+        scroll.contentSize = CGSize(width: 375, height: 800)
     }
     
     
