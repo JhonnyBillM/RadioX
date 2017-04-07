@@ -86,8 +86,7 @@ class RadioDataViewController: UIViewController, FaveButtonDelegate{
             heartButton.dotSecondColor = UIColor.darkGray
         }else{
             print("NADA DE NADA!!!!!!!!!!!")
-            heartButton.normalColor = UIColor.gray
-            
+            heartButton.normalColor = UIColor.gray            
         }
         
     }
