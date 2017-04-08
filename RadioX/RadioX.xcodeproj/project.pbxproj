@@ -20,6 +20,7 @@
 		507FFE601E842B6A00D7E510 /* RadioXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE5F1E842B6A00D7E510 /* RadioXTests.swift */; };
 		507FFE6B1E842B6A00D7E510 /* RadioXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */; };
 		507FFE7B1E843C7F00D7E510 /* StreamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */; };
+		50B759D71E9871E0000927CE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B759D61E9871E0000927CE /* TimerViewController.swift */; };
 		B29BC66D1E872101004F0E77 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29BC66C1E872101004F0E77 /* ContactViewController.swift */; };
 		B2E831251E897FF200128B36 /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831241E897FF200128B36 /* CatalogueCollectionViewCell.swift */; };
 		B2E831271E89813F00128B36 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E831261E89813F00128B36 /* CatalogueViewController.swift */; };
@@ -76,6 +77,7 @@
 		507FFE6A1E842B6A00D7E510 /* RadioXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioXUITests.swift; sourceTree = "<group>"; };
 		507FFE6C1E842B6A00D7E510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507FFE7A1E843C7F00D7E510 /* StreamingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamingViewController.swift; sourceTree = "<group>"; };
+		50B759D61E9871E0000927CE /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		6075B69E344A50AF43D7E81E /* Pods-RadioX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioX.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioX/Pods-RadioX.release.xcconfig"; sourceTree = "<group>"; };
 		6548495B1C0050271C99FA55 /* Pods-RadioXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioXUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioXUITests/Pods-RadioXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BF8DB97CB57052270397D68 /* Pods-RadioX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioX/Pods-RadioX.debug.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			children = (
 				507FFE491E842B6A00D7E510 /* ViewController.swift */,
 				507FFE4B1E842B6A00D7E510 /* Main.storyboard */,
+				50B759D61E9871E0000927CE /* TimerViewController.swift */,
 				DD12E6901E95FF9C00A0C899 /* SettingsTableViewController.swift */,
 				DD7EF8581E8FC3B4004BB64A /* RadioDataViewController.swift */,
 				50143A511E8F178A00E3AB29 /* Streaming.swift */,
@@ -551,6 +554,7 @@
 				507FFE481E842B6A00D7E510 /* AppDelegate.swift in Sources */,
 				DD268D3C1E8F636B0038884E /* Host.swift in Sources */,
 				50143A521E8F178A00E3AB29 /* Streaming.swift in Sources */,
+				50B759D71E9871E0000927CE /* TimerViewController.swift in Sources */,
 				DD268D301E8F61D80038884E /* Radio.swift in Sources */,
 				B2E831251E897FF200128B36 /* CatalogueCollectionViewCell.swift in Sources */,
 				DD268D361E8F633C0038884E /* User.swift in Sources */,
